@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Cursos Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7H7QKtDi7XdAuSt0X_NoJVn1sLlMZBDAkTw&s" alt="Logo da Plataforma" width="60" height="10000">
+            <h1>Plataforma de Cursos Online</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="busca-e-filtros">
+            <input type="text" id="search" placeholder="Buscar cursos..." aria-label="Buscar cursos">
+            <button id="search-btn">Buscar</button>
+            <div class="filtros">
+                <label for="categoria">Categoria:</label>
+                <select id="categoria">
+                    <option value="">Todas</option>
+                    <option value="programacao">Programação</option>
+                    <option value="design">Design</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+            </div>
+        </section>
+        
+        <section class="lista-cursos" id="curso-lista">
+            <!-- Os cursos serão inseridos aqui via JavaScript -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>Este projeto é apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da Disciplina Programação para Web I.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
